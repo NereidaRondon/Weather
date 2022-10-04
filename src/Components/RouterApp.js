@@ -1,14 +1,12 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {Routes, Route } from 'react-router-dom';
 import Home from './Home.js';
 import BigMap from './BigMap.js';
 import WeatherPage from './WeatherPage';
 
 export default function Router() {
   
-  return (
-    <>
-      <HashRouter>
+  return (  
         <Routes>
           
           <Route path='/' element={ <Home />} />
@@ -16,9 +14,6 @@ export default function Router() {
           <Route path='/map' element={ <BigMap /> } />
           
         </Routes>
-      </HashRouter>
-    </>
-    
   );
 }
 

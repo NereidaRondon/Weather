@@ -9,11 +9,11 @@ export default function App() {
   
   return (
     <>
-      <NavBar />
-      <Container fluid as='div' className='mt-4 m-auto landing'>
-        <RouterApp />
-      </Container>
-       
+        <NavBar />
+
+        <Container fluid as='div' className='mt-4 m-auto landing'>
+          <RouterApp />
+        </Container> 
     </>
    
   );

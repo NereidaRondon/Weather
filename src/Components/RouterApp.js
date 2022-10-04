@@ -8,11 +8,9 @@ export default function Router() {
   
   return (  
         <Routes>
-          
-          <Route path='/' element={ <Home />} />
+          <Route exact path='/' element={ <Home />} />
           <Route path='/weatherdashboard' element={ <WeatherPage /> } />
-          <Route path='/map' element={ <BigMap /> } />
-          
+          <Route path='/map' element={ <BigMap /> } />  
         </Routes>
   );
 }

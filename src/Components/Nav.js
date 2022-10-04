@@ -8,10 +8,10 @@ export default function NavBar(){
 
     return(
         <>
-            <Nav as='h4'  className='mt-0 pt-5' variant="tabs" defaultActiveKey="/home">
+            <Nav as='h4'  className='mt-0 pt-5' variant="tabs" defaultActiveKey="/">
 
                 <Nav.Item className=''>
-                    <Nav.Link as={Link} to={'/home'}>Home</Nav.Link>
+                    <Nav.Link as={Link} to={'/'}>Home</Nav.Link>
                 </Nav.Item>
 
                 <Nav.Item>

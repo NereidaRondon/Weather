@@ -10,7 +10,7 @@ import x from '../images/x.svg';
 import update from '../images/refresh.svg';
 import {KEY} from './Home.js';
 
-export default function WeatherTile(props){
+export default function CityTiles(props){
    
     const { location } = props;
     //const [newData, setNewData]=useState('');
@@ -59,7 +59,7 @@ export default function WeatherTile(props){
     },[props]);
    
     //maps data to card tiles 
-    function Dashboard(){
+    function DashboardList(){
         console.log(cities);
 
         const tiles = cities.map(cityprops =>{
@@ -168,7 +168,7 @@ export default function WeatherTile(props){
     }
 
         return(
-            <Dashboard />
+            <DashboardList />
         );
        
 }

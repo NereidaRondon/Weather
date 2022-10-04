@@ -8,7 +8,7 @@ import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/Container';
 
 
-export default function Data(){
+export default function Dashboard(){
     
     const [location, setLocation]=useState('');
     const inputLocation= useRef(null);

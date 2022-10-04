@@ -8,7 +8,7 @@ export default function Router() {
   
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           
           <Route path='/' element={ <Home />} />
@@ -16,7 +16,7 @@ export default function Router() {
           <Route path='/map' element={ <BigMap /> } />
           
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
     
   );

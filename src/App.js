@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import RouterApp from './Components/RouterApp.js'
+import Container from 'react-bootstrap/Container';
+import NavBar from './Components/Nav.js';
 
-function App() {
+
+export default function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Container fluid as='div' className='mt-4 m-auto landing'>
+        <RouterApp />
+      </Container>
+       
+    </>
+   
   );
 }
 
-export default App;
+ 

@@ -1,0 +1,44 @@
+
+base:"stations"
+
+clouds:{all: 20}
+
+cod:200
+
+coord:{lon: -80.1937, lat: 25.7743}
+
+dt:1663968132
+
+id:4164138
+
+main:{
+    temp: 305.46, 0
+    feels_like: 310.33, 
+    temp_min: 304.25, 
+    temp_max: 307.05, 
+    pressure: 1012, …}
+
+name:"Miami"
+
+sys:{
+    type: 2, 
+    id: 2009435, 
+    country: 'US', 
+    sunrise: 1663931384, 
+    sunset: 1663974994
+}
+
+timezone:-14400
+
+visibility:10000
+
+weather:[{
+    description:"few clouds"
+    icon:"02d"
+    id:801
+    main:"Clouds"
+}]
+
+
+wind:{speed: 5.81, deg: 70, gust: 0}
+

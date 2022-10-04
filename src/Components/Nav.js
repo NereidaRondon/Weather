@@ -11,7 +11,7 @@ export default function NavBar(){
             <Nav as='h4'  className='mt-0 pt-5' variant="tabs" defaultActiveKey="/home">
 
                 <Nav.Item className=''>
-                    <Nav.Link as={Link} to={'/'}>Home</Nav.Link>
+                    <Nav.Link as={Link} to={'/home'}>Home</Nav.Link>
                 </Nav.Item>
 
                 <Nav.Item>

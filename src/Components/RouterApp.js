@@ -8,7 +8,7 @@ export default function Router() {
   
   return (  
         <Routes>
-          <Route exact path='/' element={ <Home />} />
+          <Route exact path='/home' element={ <Home />} />
           <Route path='/dashboard' element={ <Dashboard /> } />
           <Route path='/map' element={ <BigMap /> } />  
         </Routes>

@@ -13,8 +13,6 @@ import {KEY} from './Home.js';
 export default function CityTiles(props){
    
     const { location } = props;
-    //const [newData, setNewData]=useState('');
-    //const [weather, setWeather]=useState(null);
     const [cities, setCities] = useState([]);
     
     const url =`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${KEY}&units=imperial`;

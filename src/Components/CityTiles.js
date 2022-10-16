@@ -22,14 +22,11 @@ export default function CityTiles(props){
       const cities = JSON.parse(localStorage.getItem('items'));
       console.log(cities);
 
-      //setCities(JSON.parse(window.localStorage.getItem('cities')));
-      
       if (cities==='') {
         console.log('no cities');
       } else{
         console.log('saving cities from local storage');
         setCities(cities);
-
       }
     }, []);
     
@@ -81,8 +78,6 @@ export default function CityTiles(props){
     function UpdateCity(id, city){
         console.log(`refresh weather data for ${city}...`);
         
-        //document.getElementById(id).remove();
-
         const updateURL =`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${KEY}&units=imperial`;
 
             axios.get(updateURL)
@@ -105,7 +100,7 @@ export default function CityTiles(props){
     };
 
 
-    //Deletes entry from weather state arra, deletes element
+    //Deletes entry from weather state array, deletes element from DOM
     function DeleteCity(id){
         
         document.getElementById(id).remove();

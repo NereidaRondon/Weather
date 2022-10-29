@@ -21,8 +21,9 @@ Check out my [Portfolio](http://NereidaRondon.com)
 [Project GitHub Pages](https://nereidarondon.github.io/Weather/)
 
 
-<img src='https://user-images.githubusercontent.com/97356401/196056495-85a520b2-ef0b-4cfa-a7f5-366676115631.png' width='210' height='210' alt='Bitmoji in popcorn'/>
-<img src='https://user-images.githubusercontent.com/97356401/196056365-5888484f-878f-46d2-9f6f-7d3a13844b6f.png' width='200' height='200' alt='Bitmoji in popcorn'/>
+<img src='https://user-images.githubusercontent.com/97356401/196056495-85a520b2-ef0b-4cfa-a7f5-366676115631.png' width='210' height='210' alt='Bitmoji cloud'/>
+<img src='https://user-images.githubusercontent.com/97356401/198838672-a7a3fa34-b907-4ab7-96ec-185b8723416f.png' width='200' height='200' alt='Bitmoji rain on me'/>
+
 
 Imagine taking a trip and wanting to know your destination’s weather so you can pack accordingly, or maybe you’re going to several different places and want to know the weather for every one of your destinations. That’s what I was thinking when I created my Weather Dashboard App. Moreover, what if you wanted to look up some restaurants or addresses once you make it to your destination? That was the reason for adding the map page to the app. Challenges in this project came from getting the API data to show as desired and the issue of how to update the cities that were saved on the dashboard. This was also the first time that I encountered a need for React-Router because I had tabs and the components had to switch when a different tab was clicked. I had to figure out how to set up the router to render the different “pages”. 
 
